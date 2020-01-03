@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.company-name{
+    float: left;
+}
+
+#company{
+    margin-left: 40px;
+}
+
+.menu-bar {
+    margin-right: 20px;
+    padding: 0px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-text {
+    padding: 10px;
+}
+
+.first-container {
+    height: 500px;
+    background-color: black;
+}
+
+.more-know{
+    padding: 150px;
+    margin: 0px;
+    text-align: center;
+}
+
+.second-container {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    float: left;
+}
+
+.teal-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#teal-box {
+    margin: 0 40px;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: mediumaquamarine;
+    display: inline-block;
+}
+
+.peach-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#peach-box {
+    margin: 10px 30px;
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+    background-color: orange;
+    display: inline-block;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#image-box {
+    margin: 10px 30px;
+    height: 250px;
+    width: 450px;
+    display: inline-block;
+}
+
+.footer {
+    position: absolute;
+    bottom: -900px;
+    height: 100px;
+    width: 100%;
+    background-color: midnightblue;
+}
